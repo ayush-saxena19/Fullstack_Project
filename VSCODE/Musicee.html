@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <title>Musice</title>
+</head>
+
+<style>
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url("img/slider1.jpg");
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    .left{
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute ;
+        left: 25px;
+        top: 25px;
+
+    }
+    .mid{
+        display: block;
+        /*border: 2px solid green;*/
+        position: relative;
+        left: 200px;
+        width: 60%;
+        margin: 12px auto;
+        cursor: pointer;
+        
+
+    }
+    .right{
+        display: inline-block;
+        /* border: 2px solid yellow; */
+        position: absolute ;
+        right: 2px;
+        top: 0px;
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 22px 11px;
+    }
+    .navbar li:hover{
+        text-decoration: underline;
+        color: gray;
+
+    }
+    .navbar li a.active{
+        text-decoration: underline;
+        color:red;
+    }
+    .left img{
+        width: 190px;
+    } 
+    .btn{
+        margin:20px 0px ;
+        background-color:transparent;
+        color: white;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color:gray;
+
+    }
+    
+</style>
+<body>
+   <header class="header">
+       <div class="left">
+         <img src="img/logo_white.png" alt="">
+
+       </div>
+       <div class="mid">
+         <ul class="navbar"><li><a href=# class="active" >HOME</a></li>
+         <li><a href=#></a>ALBUM</li>
+         <li><a href=#></a>GALLERY</li>
+         <li><a href=#></a>CONTACTUS</li>
+         <li><a href=#></a>ARTIST</li></ul>
+         
+       </div>
+       <div class="right">
+           <button class="btn">CALLUS</button>
+           <button class="btn">EMAILUS  </button>
+       </div>
+   </header>
+   
+    
+    
+</body>
+</html>
